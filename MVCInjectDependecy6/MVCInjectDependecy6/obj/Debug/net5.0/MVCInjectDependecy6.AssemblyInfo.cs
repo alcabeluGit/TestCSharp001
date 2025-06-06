@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MVCInjectDependecy6")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a2582e2d0590ac10b03c4e876d3e921ca9ea47f2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ec709669011a7f720234721bc98311a0f77eba70")]
 [assembly: System.Reflection.AssemblyProductAttribute("MVCInjectDependecy6")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MVCInjectDependecy6")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
