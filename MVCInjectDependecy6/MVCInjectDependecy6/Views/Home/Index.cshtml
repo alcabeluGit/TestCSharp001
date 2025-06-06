@@ -2,10 +2,12 @@
     ViewData["Title"] = "Home Page";
 
     var trasient = (OpenTelemetry)ViewBag.transient;
+    var scoped = (OpenTelemetry)ViewBag.scoped;
 }
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
-    <b>Transient 1 </b>@trasient.value
+    <b>Transient 1 </b>@trasient.Value
+    <b>Scoped 1 </b>@scoped.Value
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
