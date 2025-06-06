@@ -4,5 +4,6 @@
     {
         algo
             segundo
+            tercero
     }
 }
