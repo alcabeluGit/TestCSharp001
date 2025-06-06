@@ -12,14 +12,27 @@ namespace MVCInjectDependecy6.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly ITransient _transient;
+        private readonly IScoped _scoped;
+        private readonly ISinglenton _singlenton;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger,
+                               ITransient transient,
+                               IScoped scoped,
+                               ISinglenton singlenton)
         {
             _logger = logger;
+            _transient = transient;
+            _scoped = scoped;
+            _singlenton = singlenton;
         }
 
         public IActionResult Index()
         {
+            ViewBag.transient = _transient;
+            ViewBag.scoped = _scoped;
+            ViewBag.Singlenton = _singlenton;
+
             return View();
         }
 
